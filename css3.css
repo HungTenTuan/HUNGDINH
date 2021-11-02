@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 800px;
+    
+    margin: auto;
+    background-color: burlywood;
+}
+.header{
+    width: 800px;
+    height: 80px;
+    background-color: aqua;
+}
+.content1{
+    width: 200px;
+    height: 800px;
+    background-color: green;
+    float: left;
+}
+.content2{
+    width: 400px;
+    height: 800px;
+    background-color: grey;
+    float: left;
+}
+.content3{
+    width: 200px;
+    height: 800px;
+    background-color: hotpink;
+    float: right;
+}
+.footer{
+    width: 800px;
+    height: 50px;
+    background-color: brown;
+    clear: both;
+}

@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    height: 1000px;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 85px ;
+    
+}
+
+.header{
+    height: 81px;
+    width: auto;
+    background-image: url(https://vcdn-giaitri.vnecdn.net/2020/11/16/doraemon-4436-1605499376.jpg);
+    background-size: contain;
+    text-align: center;
+    border: 2px solid black;
+    position: fixed;
+    z-index: 1;
+    
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#text{
+margin-bottom: 40px;
+font-size: 40px;
+color: black;
+letter-spacing: 30px;
+line-height: 80px;
+}
+.header-p{
+    width: 450px;
+    height: 72px;
+    line-height: 100px;
+    background-color:aqua ;
+    margin-top: 10px;
+    display: inline-block;
+   
+}
+/*header*/
+
+.left{
+    float: left;
+    height: 918px;
+    width: 20%;
+    background-color: burlywood;
+    background-size: cover;
+    margin-bottom: 100px;
+    position: absolute;
+    border-bottom: 2px blue solid ;
+    
+}
+.li{
+    list-style-type: none;
+    line-height: 40px;
+    
+}
+.li img{
+    height: 120px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 0px;
+    
+}
+
+.li a{
+    font-size: 30px;
+    color: blue;
+
+}
+.left:hover{
+    
+    background-color: blanchedalmond;
+    background-size: contain;
+    
+}
+.li a:hover{
+    color: black;
+}
+/*menu*/
+
+.content{
+width: 60%;
+height: 920px;
+background-color: blueviolet;
+float: left;
+background-image: url(https://img2.thuthuat123.com/uploads/2020/08/02/anh-nobita-khoc-duoi-mua_025341172.jpg);
+background-size: contain;
+position: relative;
+left: 300px;
+}
+.content h1{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    
+}
+#content1{
+    width: 500px;
+    height: 360px;
+    background-color: white;
+    float: right;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 2px solid blue;
+    padding: 20px;
+
+    
+}
+#content1 img{
+   width: 150px;
+   float: right;
+   transform: all 1s ;
+}
+#content1 img:hover{
+    transform: rotate(180deg);
+}
+#content2{
+    width: 540px;
+    height: 403px;
+    background-color: cadetblue;
+    float: right;
+    margin-top: 0px;   
+    border: solid blue 2px  ;
+    
+    
+}
+#content2 img{
+    width: 110px;
+    margin: 20px;
+    transform: all 1s;
+}
+#content2 img:hover{
+    transform: rotate(180deg);
+}
+#content3{
+    width: 400px;
+    height: 805px;
+    background-color: rgb(226, 146, 116);
+    border: blue solid 2px;
+    margin-top: 52px;
+    margin-right: 0px;
+    
+}
+#content3 h1{
+    text-align: center;
+}
+#content3 p {
+    padding: 0 10px;
+}
+#content3 img{
+    float: right;
+    transform: all 1s;
+    width: 100px;
+}
+#content3 img:hover{
+    transform: rotate(180deg);
+}
+#content4 img{
+    width: 200px;
+    border: blue solid 2px;
+}
+.right{
+    width: 20%;
+    height: 918px;
+    background-image: url(https://luongngocanh.com/wp-content/uploads/2020/02/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-b%E1%BB%A9c-tranh-t%C3%B4-m%C3%A0u-Nobita-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-2.jpg);
+    float: left;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    border-bottom: solid 2px blue  ;
+}
+
+.footer{
+width: 100%;
+height: 100px;
+background-color: rgb(195, 195, 236);
+background-size: contain;
+clear: both;
+}
+.footer p{
+   text-align: right;
+}
+.footer a{
+    margin: 660px;
+    font-size: 20px;
+}
+
+
+
+
